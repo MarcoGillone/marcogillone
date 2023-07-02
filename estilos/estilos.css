@@ -1,6 +1,7 @@
 .subtitulos{
     color: rgb(75, 3, 3);
     height: 15px;
+    
   
 }
 body{
@@ -19,10 +20,12 @@ a{
     top: 20px;
 }
 .foto{
-    height: 250px;
+    height: 230px;
     width: 200px;
     max-width: 100%;
     position: relative;
+    border-radius: 50%;
+    float: right;
     
     
     
@@ -55,14 +58,18 @@ footer{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    height: auto;
+    width: 100%;
 }
 .caja{
     background-color: rgb(255, 230, 0);
-    width: 100%;
+    width: 800px;
     height: 260px;
     padding: 20px;
     box-sizing: border-box;
     margin-left: auto;
+    float: left;
+    
     
     
  
@@ -89,6 +96,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: auto;
+    width: 100%;
     
 
    }
@@ -96,6 +105,7 @@ header{
     list-style: none;
     margin: 0;
     padding: 0;
+    
    }
 
    .menu ul li{
